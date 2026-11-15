@@ -20,3 +20,5 @@ El RPC responde con `Access-Control-Allow-Origin: *`, así que el navegador pued
 ## Instalación en el servidor
 
 Con nginx ya instalado, un solo comando (ver la release) deja los archivos en `/var/www/html`, configura el sitio y recarga nginx.
+
+Si el servidor ya tiene HTTPS (certbot en `explorer.pagachain.com`), el mismo comando solo actualiza los archivos estáticos y no pisa la configuración de nginx.

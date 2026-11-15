@@ -39,7 +39,7 @@ header .wrap {
 }
 .brand { display: flex; align-items: center; gap: 10px; color: #fff; font-weight: 700; }
 .brand:hover { text-decoration: none; }
-.brand img { width: 40px; height: 40px; }
+.brand img { width: 44px; height: 44px; display: block; flex-shrink: 0; }
 .brand span { font-size: 1.05rem; letter-spacing: .01em; }
 .brand small { display: block; font-weight: 500; color: var(--muted); font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; }
 #search-form { flex: 1; display: flex; gap: 8px; min-width: 0; }
